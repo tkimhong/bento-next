@@ -11,8 +11,8 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
-  openInNewTab: true,
+  name: 'Hong',
+  openInNewTab: false,
   title: 'Bento',
 
   // Clock
@@ -70,8 +70,8 @@ export const config: Config = {
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '11.534',
+  defaultLongitude: '104.885',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
